@@ -1,4 +1,4 @@
-jRails.application.routes.draw do
+ Rails.application.routes.draw do
   devise_for :users
   get 'welcome/index'
 
